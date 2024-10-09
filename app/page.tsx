@@ -1,5 +1,10 @@
+import ClientWrapper from './ClientWrapper';
 import HomeContent from './HomeContent';
 
 export default function Home() {
-  return <HomeContent />;
+  return (
+    <ClientWrapper>
+      <HomeContent />
+    </ClientWrapper>
+  );
 }
